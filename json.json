@@ -1,0 +1,747 @@
+[{
+    "name": "Community",
+    "createdAt": "2022-10-25T22:10:47.698Z",
+    "updatedAt": "2022-10-25T22:10:47.698Z",
+    "deleted": false,
+    "position": 0,
+    "communityId": "8a4d3593-253a-4e9d-b7dd-fcf77c764a2b",
+    "id": "dd5c8f89-0167-4b07-8acc-b3a90518bba2",
+    "quests": [{
+        "name": "Follow us on Twitter 🐦",
+        "content": [],
+        "recurrence": "once",
+        "deleted": false,
+        "createdAt": "2022-10-25T22:10:47.700Z",
+        "updatedAt": "2022-10-25T22:10:47.700Z",
+        "reward": [{
+            "type": "xp",
+            "value": 10
+        }],
+        "position": 1,
+        "published": true,
+        "communityId": "8a4d3593-253a-4e9d-b7dd-fcf77c764a2b",
+        "submissionType": "twitter",
+        "condition": [],
+        "validationData": {
+            "actions": ["follow"],
+            "tweetId": "1584970210791915520",
+            "tweetUrl": "https://twitter.com/zksync/status/1584970210791915520",
+            "tweetWords": ["@zksync"],
+            "defaultReply": "",
+            "defaultTweet": "",
+            "twitterHandle": "zksync"
+        },
+        "autoValidate": true,
+        "id": "8e062424-fa21-4d5a-b295-a7c6de0410fe",
+        "categoryId": "dd5c8f89-0167-4b07-8acc-b3a90518bba2",
+        "conditionOperator": "AND",
+        "claimCounter": 474949,
+        "retryAfter": 0,
+        "description": {
+            "type": "doc",
+            "content": []
+        },
+        "totalClaims": 474949,
+        "lastClaimDate": null,
+        "lastTryDate": null,
+        "inReview": false,
+        "open": true,
+        "unlocked": true,
+        "canRetry": true
+    }]
+}, {
+    "name": "Security",
+    "createdAt": "2022-12-06T15:13:14.579Z",
+    "updatedAt": "2022-12-06T15:13:14.579Z",
+    "deleted": false,
+    "position": 1,
+    "communityId": "8a4d3593-253a-4e9d-b7dd-fcf77c764a2b",
+    "id": "3f7c1e90-a846-4e31-8ad3-d9cef3d70b3c",
+    "quests": [{
+        "name": "Know your Scams 🚨 pt. 1 ",
+        "content": [],
+        "recurrence": "once",
+        "deleted": false,
+        "createdAt": "2022-12-06T16:15:27.816Z",
+        "updatedAt": "2022-12-06T16:15:27.816Z",
+        "reward": [{
+            "type": "xp",
+            "value": 0
+        }],
+        "position": 0,
+        "published": true,
+        "communityId": "8a4d3593-253a-4e9d-b7dd-fcf77c764a2b",
+        "submissionType": "link",
+        "condition": [{
+            "type": "quest",
+            "value": "8e062424-fa21-4d5a-b295-a7c6de0410fe",
+            "operator": "isCompleted",
+            "state": {
+                "isOpen": false,
+                "canChange": true
+            }
+        }],
+        "validationData": {
+            "value": "https://docs.zksync.io/contact.html",
+            "enabled": true
+        },
+        "autoValidate": true,
+        "id": "f055a601-4987-4b6e-ad0f-2906b4e95928",
+        "categoryId": "3f7c1e90-a846-4e31-8ad3-d9cef3d70b3c",
+        "conditionOperator": "AND",
+        "claimCounter": 353879,
+        "retryAfter": 0,
+        "description": {
+            "type": "doc",
+            "content": [{
+                "type": "paragraph",
+                "content": [{
+                    "text": "This is the official contacts page for the zkSync team. It would be helpful to bookmark this page to make sure you are following official accounts. ",
+                    "type": "text"
+                }]
+            }]
+        },
+        "totalClaims": 353879,
+        "lastClaimDate": null,
+        "lastTryDate": null,
+        "inReview": false,
+        "open": true,
+        "unlocked": false,
+        "canRetry": true
+    }, {
+        "name": "Know your Scams 🚨 pt. 2",
+        "content": [],
+        "recurrence": "once",
+        "deleted": false,
+        "createdAt": "2022-12-06T17:48:32.624Z",
+        "updatedAt": "2022-12-06T17:48:32.624Z",
+        "reward": [{
+            "type": "xp",
+            "value": 0
+        }],
+        "position": 1,
+        "published": true,
+        "communityId": "8a4d3593-253a-4e9d-b7dd-fcf77c764a2b",
+        "submissionType": "quiz",
+        "condition": [{
+            "type": "quest",
+            "value": "f055a601-4987-4b6e-ad0f-2906b4e95928",
+            "operator": "isCompleted",
+            "state": {
+                "isOpen": false,
+                "canChange": true
+            }
+        }],
+        "validationData": {
+            "options": ["Yes", "No"],
+            "question": "On Discord, Twitter, Telegram, etc. will an admin or official team member ever direct message (DM) you first and ask you for anything?"
+        },
+        "autoValidate": true,
+        "id": "5fda5415-5101-44f9-ab9c-76dcce9ac229",
+        "categoryId": "3f7c1e90-a846-4e31-8ad3-d9cef3d70b3c",
+        "conditionOperator": "AND",
+        "claimCounter": 348425,
+        "retryAfter": 0,
+        "description": {
+            "type": "doc",
+            "content": [{
+                "type": "paragraph",
+                "content": [{
+                    "text": "Use your knowledge of scams to answer. ",
+                    "type": "text"
+                }]
+            }]
+        },
+        "totalClaims": 348425,
+        "lastClaimDate": null,
+        "lastTryDate": null,
+        "inReview": false,
+        "open": true,
+        "unlocked": false,
+        "canRetry": true
+    }, {
+        "name": "Know your Scams 🚨 pt. 3",
+        "content": [],
+        "recurrence": "once",
+        "deleted": false,
+        "createdAt": "2022-12-06T17:51:02.789Z",
+        "updatedAt": "2022-12-06T17:51:02.789Z",
+        "reward": [{
+            "type": "xp",
+            "value": 0
+        }],
+        "position": 2,
+        "published": true,
+        "communityId": "8a4d3593-253a-4e9d-b7dd-fcf77c764a2b",
+        "submissionType": "text",
+        "condition": [{
+            "type": "quest",
+            "value": "5fda5415-5101-44f9-ab9c-76dcce9ac229",
+            "operator": "isCompleted",
+            "state": {
+                "isOpen": false,
+                "canChange": true
+            }
+        }],
+        "validationData": {
+            "enabled": true
+        },
+        "autoValidate": true,
+        "id": "afd6c13f-4858-41b5-b763-2b12b5f651a0",
+        "categoryId": "3f7c1e90-a846-4e31-8ad3-d9cef3d70b3c",
+        "conditionOperator": "AND",
+        "claimCounter": 335976,
+        "retryAfter": 0,
+        "description": {
+            "type": "doc",
+            "content": [{
+                "type": "paragraph",
+                "content": [{
+                    "text": "Many fake accounts will write the wrong name of the protocol to make it look like the official account like \"zk-Synch\". What is the correct name of the protocol? (How do you spell the name of the protocol?)",
+                    "type": "text"
+                }]
+            }]
+        },
+        "totalClaims": 335976,
+        "lastClaimDate": null,
+        "lastTryDate": null,
+        "inReview": false,
+        "open": true,
+        "unlocked": false,
+        "canRetry": true
+    }, {
+        "name": "Know your Scams 🚨 pt. 4",
+        "content": [],
+        "recurrence": "once",
+        "deleted": false,
+        "createdAt": "2022-12-06T17:52:40.575Z",
+        "updatedAt": "2022-12-06T17:52:40.575Z",
+        "reward": [{
+            "type": "xp",
+            "value": 0
+        }],
+        "position": 3,
+        "published": true,
+        "communityId": "8a4d3593-253a-4e9d-b7dd-fcf77c764a2b",
+        "submissionType": "quiz",
+        "condition": [{
+            "type": "quest",
+            "value": "afd6c13f-4858-41b5-b763-2b12b5f651a0",
+            "operator": "isCompleted",
+            "state": {
+                "isOpen": false,
+                "canChange": true
+            }
+        }],
+        "validationData": {
+            "options": ["incorrect spelling of zkSync", "the font is not standard for a Discord username or mixed with normal font to trick users", "they use the zkSync logo as a profile picture"],
+            "question": "How can you tell these are fake and scam accounts?"
+        },
+        "autoValidate": true,
+        "id": "0bff2b37-cc40-45b9-98f8-f8e76288d276",
+        "categoryId": "3f7c1e90-a846-4e31-8ad3-d9cef3d70b3c",
+        "conditionOperator": "AND",
+        "claimCounter": 334998,
+        "retryAfter": 0,
+        "description": {
+            "type": "doc",
+            "content": [{
+                "type": "paragraph",
+                "content": [{
+                    "text": "Use these images to answer the question",
+                    "type": "text"
+                }, {
+                    "type": "hardBreak"
+                }, {
+                    "type": "hardBreak"
+                }]
+            }, {
+                "type": "image",
+                "attrs": {
+                    "alt": "Scam account 1",
+                    "src": "https://crew3-production.s3.eu-west-3.amazonaws.com/public/7916bb04-3fc8-4427-83b2-d17fae29bb7c-image.png",
+                    "title": "Scam account 1"
+                }
+            }, {
+                "type": "image",
+                "attrs": {
+                    "alt": "Scam account 2",
+                    "src": "https://crew3-production.s3.eu-west-3.amazonaws.com/public/86e3bca1-e70a-4fe2-ba43-5ce653c01f76-image.png",
+                    "title": "Scam account 2"
+                }
+            }, {
+                "type": "image",
+                "attrs": {
+                    "alt": "Scam account 3",
+                    "src": "https://crew3-production.s3.eu-west-3.amazonaws.com/public/9e8d7e56-0f34-4be9-9396-0835297962d9-image.png",
+                    "title": "Scam account 3"
+                }
+            }]
+        },
+        "totalClaims": 334998,
+        "lastClaimDate": null,
+        "lastTryDate": null,
+        "inReview": false,
+        "open": true,
+        "unlocked": false,
+        "canRetry": true
+    }, {
+        "name": "Know your Scams 🚨 pt. 5",
+        "content": [],
+        "recurrence": "once",
+        "deleted": false,
+        "createdAt": "2022-12-06T17:56:04.983Z",
+        "updatedAt": "2022-12-06T17:56:04.983Z",
+        "reward": [{
+            "type": "xp",
+            "value": 0
+        }],
+        "position": 4,
+        "published": true,
+        "communityId": "8a4d3593-253a-4e9d-b7dd-fcf77c764a2b",
+        "submissionType": "quiz",
+        "condition": [{
+            "type": "quest",
+            "value": "0bff2b37-cc40-45b9-98f8-f8e76288d276",
+            "operator": "isCompleted",
+            "state": {
+                "isOpen": false,
+                "canChange": true
+            }
+        }],
+        "validationData": {
+            "options": ["Does not match the name of the admin listed on the official Discord", "profile picture is a screenshot of a Discord profile picture (you can tell with the small grey circle in the profile picture)", "All the above"],
+            "question": "How can you tell this is a fake account of bxpana (one of the admins of the zkSync Discord)? "
+        },
+        "autoValidate": true,
+        "id": "25f4ec90-ba46-43ae-aaa0-bd3231ddb10c",
+        "categoryId": "3f7c1e90-a846-4e31-8ad3-d9cef3d70b3c",
+        "conditionOperator": "AND",
+        "claimCounter": 333599,
+        "retryAfter": 0,
+        "description": {
+            "type": "doc",
+            "content": [{
+                "type": "heading",
+                "attrs": {
+                    "level": 6,
+                    "indent": 0
+                },
+                "content": [{
+                    "text": "Scammers like to impersonate the admins or mods of our channels like the image below.",
+                    "type": "text"
+                }]
+            }, {
+                "type": "image",
+                "attrs": {
+                    "alt": "Scam copy of bxpana account",
+                    "src": "https://crew3-production.s3.eu-west-3.amazonaws.com/public/e3b5a4ba-61df-4fca-9e75-76111fbc8997-image.png",
+                    "title": "Scam copy of bxpana account"
+                }
+            }]
+        },
+        "totalClaims": 333599,
+        "lastClaimDate": null,
+        "lastTryDate": null,
+        "inReview": false,
+        "open": true,
+        "unlocked": false,
+        "canRetry": true
+    }, {
+        "name": "Know your Scams 🚨 pt. 6",
+        "content": [],
+        "recurrence": "once",
+        "deleted": false,
+        "createdAt": "2022-12-06T18:00:39.963Z",
+        "updatedAt": "2022-12-06T18:00:39.963Z",
+        "reward": [{
+            "type": "xp",
+            "value": 0
+        }],
+        "position": 5,
+        "published": true,
+        "communityId": "8a4d3593-253a-4e9d-b7dd-fcf77c764a2b",
+        "submissionType": "quiz",
+        "condition": [{
+            "type": "quest",
+            "value": "25f4ec90-ba46-43ae-aaa0-bd3231ddb10c",
+            "operator": "isCompleted",
+            "state": {
+                "isOpen": false,
+                "canChange": true
+            }
+        }],
+        "validationData": {
+            "options": ["The Twitter profile is not on https://docs.zksync.io/contact.html ", "It is coming from a source other than https://twitter.com/zksync", "The Tweet wants you to do something quickly", "All the above"],
+            "question": "How do you know the Tweet and account are scams?"
+        },
+        "autoValidate": true,
+        "id": "5ef08e75-7ffe-47a8-9cbc-a86a2e40355b",
+        "categoryId": "3f7c1e90-a846-4e31-8ad3-d9cef3d70b3c",
+        "conditionOperator": "AND",
+        "claimCounter": 332435,
+        "retryAfter": 0,
+        "description": {
+            "type": "doc",
+            "content": [{
+                "type": "heading",
+                "attrs": {
+                    "level": 2,
+                    "indent": 0
+                },
+                "content": [{
+                    "text": "You see a Tweet that says there is an airdrop/raffle/snapshot for zkSync like the image below ",
+                    "type": "text"
+                }]
+            }, {
+                "type": "paragraph",
+                "content": [{
+                    "text": "DO NOT VISIT THIS OR INTERACT WITH THE TWITTER",
+                    "type": "text",
+                    "marks": [{
+                        "type": "italic"
+                    }]
+                }, {
+                    "type": "hardBreak",
+                    "marks": [{
+                        "type": "italic"
+                    }]
+                }, {
+                    "text": "ACCOUNT IN THE IMAGE",
+                    "type": "text",
+                    "marks": [{
+                        "type": "italic"
+                    }]
+                }]
+            }, {
+                "type": "image",
+                "attrs": {
+                    "alt": "&nbsp;Scam Tweet",
+                    "src": "https://crew3-production.s3.eu-west-3.amazonaws.com/public/b2a498a7-5d72-49a3-a7a5-c1e6d66b5812-image.png",
+                    "title": "&nbsp;Scam Tweet"
+                }
+            }]
+        },
+        "totalClaims": 332435,
+        "lastClaimDate": null,
+        "lastTryDate": null,
+        "inReview": false,
+        "open": true,
+        "unlocked": false,
+        "canRetry": true
+    }, {
+        "name": "Know your Scams 🚨 pt. 7",
+        "content": [],
+        "recurrence": "once",
+        "deleted": false,
+        "createdAt": "2022-12-06T18:26:24.447Z",
+        "updatedAt": "2022-12-06T18:26:24.447Z",
+        "reward": [{
+            "type": "xp",
+            "value": 0
+        }],
+        "position": 6,
+        "published": true,
+        "communityId": "8a4d3593-253a-4e9d-b7dd-fcf77c764a2b",
+        "submissionType": "quiz",
+        "condition": [{
+            "type": "quest",
+            "value": "5ef08e75-7ffe-47a8-9cbc-a86a2e40355b",
+            "operator": "isCompleted",
+            "state": {
+                "isOpen": false,
+                "canChange": true
+            }
+        }],
+        "validationData": {
+            "options": ["They didn’t start off with saying “GM”", "They have a boring profile picture", "They are trying to help you", "They private messaged you first (DM) "],
+            "question": "How do you know this is a scammer trying to scam you?"
+        },
+        "autoValidate": true,
+        "id": "f667c630-0f06-400a-8930-30865eeca51f",
+        "categoryId": "3f7c1e90-a846-4e31-8ad3-d9cef3d70b3c",
+        "conditionOperator": "AND",
+        "claimCounter": 331536,
+        "retryAfter": 0,
+        "description": {
+            "type": "doc",
+            "content": [{
+                "type": "heading",
+                "attrs": {
+                    "level": 2,
+                    "indent": 0
+                },
+                "content": [{
+                    "text": "You’re on our official Support Telegram channel that you found on",
+                    "type": "text"
+                }]
+            }, {
+                "type": "paragraph",
+                "content": [{
+                    "text": "https://docs.zksync.io/contact.html",
+                    "type": "text",
+                    "marks": [{
+                        "type": "link",
+                        "attrs": {
+                            "href": "https://docs.zksync.io/contact.html",
+                            "class": null,
+                            "target": "_blank"
+                        }
+                    }]
+                }, {
+                    "text": " ",
+                    "type": "text"
+                }, {
+                    "text": "and ask for help.",
+                    "type": "text",
+                    "marks": [{
+                        "type": "bold"
+                    }]
+                }]
+            }, {
+                "type": "paragraph",
+                "content": [{
+                    "text": "Someone that looks like one of the admins private messages (DM) you and asks how they can help you without asking in the public chat 🤔 How do you know this is a scammer trying to scam you?",
+                    "type": "text",
+                    "marks": [{
+                        "type": "bold"
+                    }]
+                }]
+            }]
+        },
+        "totalClaims": 331536,
+        "lastClaimDate": null,
+        "lastTryDate": null,
+        "inReview": false,
+        "open": true,
+        "unlocked": false,
+        "canRetry": true
+    }, {
+        "name": "Know your Scams 🚨 pt. 8",
+        "content": [],
+        "recurrence": "once",
+        "deleted": false,
+        "createdAt": "2022-12-06T18:28:07.072Z",
+        "updatedAt": "2022-12-06T18:28:07.072Z",
+        "reward": [{
+            "type": "xp",
+            "value": 0
+        }],
+        "position": 7,
+        "published": true,
+        "communityId": "8a4d3593-253a-4e9d-b7dd-fcf77c764a2b",
+        "submissionType": "quiz",
+        "condition": [{
+            "type": "quest",
+            "value": "f667c630-0f06-400a-8930-30865eeca51f",
+            "operator": "isCompleted",
+            "state": {
+                "isOpen": false,
+                "canChange": true
+            }
+        }],
+        "validationData": {
+            "options": ["The offer is too good to be true", "They are using the zkSync logo, but have a random username", "They DM’d you first", "The offer makes you feel rushed to participate", "All of the above"],
+            "question": "Before you click anything, what things stand out as this is a scam?"
+        },
+        "autoValidate": true,
+        "id": "634c83ec-494e-44f3-be22-b8a4116c3a82",
+        "categoryId": "3f7c1e90-a846-4e31-8ad3-d9cef3d70b3c",
+        "conditionOperator": "AND",
+        "claimCounter": 331088,
+        "retryAfter": 0,
+        "description": {
+            "type": "doc",
+            "content": [{
+                "type": "heading",
+                "attrs": {
+                    "level": 2,
+                    "indent": 0
+                },
+                "content": [{
+                    "text": "You get a direct message (DM) on Discord telling you to claim an airdrop.",
+                    "type": "text"
+                }]
+            }, {
+                "type": "paragraph",
+                "content": [{
+                    "text": "(Example of DM on Discord)",
+                    "type": "text",
+                    "marks": [{
+                        "type": "italic"
+                    }]
+                }]
+            }, {
+                "type": "image",
+                "attrs": {
+                    "alt": "Scam DM on Discord",
+                    "src": "https://crew3-production.s3.eu-west-3.amazonaws.com/public/5e79cedd-f847-4f17-859b-5349a03b161c-image.png",
+                    "title": "Scam DM on Discord"
+                }
+            }]
+        },
+        "totalClaims": 331088,
+        "lastClaimDate": null,
+        "lastTryDate": null,
+        "inReview": false,
+        "open": true,
+        "unlocked": false,
+        "canRetry": true
+    }, {
+        "name": "Know your Scams 🚨 pt. 9",
+        "content": [],
+        "recurrence": "once",
+        "deleted": false,
+        "createdAt": "2022-12-06T18:30:05.737Z",
+        "updatedAt": "2022-12-06T18:30:05.737Z",
+        "reward": [{
+            "type": "xp",
+            "value": 0
+        }],
+        "position": 8,
+        "published": true,
+        "communityId": "8a4d3593-253a-4e9d-b7dd-fcf77c764a2b",
+        "submissionType": "quiz",
+        "condition": [{
+            "type": "quest",
+            "value": "634c83ec-494e-44f3-be22-b8a4116c3a82",
+            "operator": "isCompleted",
+            "state": {
+                "isOpen": false,
+                "canChange": true
+            }
+        }],
+        "validationData": {
+            "options": ["If they are nice", "If they promise to fix my issue", "If they promise me a reward", "NEVER! Sharing your secret phrase or private key means giving up control of your wallet and connecting your wallet to an unknown site can drain your funds from your wallet", "All of the above"],
+            "question": "Do you ever need to give or share your secret phrase or private keys or connect your wallet to something from a stranger?"
+        },
+        "autoValidate": true,
+        "id": "704c854b-9e71-4d26-a833-f40dee15e2c8",
+        "categoryId": "3f7c1e90-a846-4e31-8ad3-d9cef3d70b3c",
+        "conditionOperator": "AND",
+        "claimCounter": 330792,
+        "retryAfter": 0,
+        "description": {
+            "type": "doc",
+            "content": []
+        },
+        "totalClaims": 330792,
+        "lastClaimDate": null,
+        "lastTryDate": null,
+        "inReview": false,
+        "open": true,
+        "unlocked": false,
+        "canRetry": true
+    }, {
+        "name": "Know your Scams 🚨 pt. 10",
+        "content": [{
+            "id": "rBmoOSZcGp",
+            "data": {
+                "text": "I will use what I’ve learned about scams to watch out for scams and teach others how they can avoid scams. I also understand that all official announcements will come from our official Twitter and Discord.",
+                "level": 2
+            },
+            "type": "header"
+        }, {
+            "id": "4HYo-rLgAR",
+            "data": {
+                "text": "Twitter: <a href=\"https://twitter.com/zksync\">https://twitter.com/zksync</a>"
+            },
+            "type": "paragraph"
+        }, {
+            "id": "QC4n6pi4Ql",
+            "data": {
+                "text": "Discord: <a href=\"https://join.zksync.dev/\">https://join.zksync.dev/</a>"
+            },
+            "type": "paragraph"
+        }],
+        "recurrence": "once",
+        "deleted": false,
+        "createdAt": "2022-12-06T18:31:29.298Z",
+        "updatedAt": "2022-12-06T18:31:29.298Z",
+        "reward": [{
+            "type": "xp",
+            "value": 0
+        }, {
+            "type": "role",
+            "value": "1049755855010148372"
+        }],
+        "position": 9,
+        "published": true,
+        "communityId": "8a4d3593-253a-4e9d-b7dd-fcf77c764a2b",
+        "submissionType": "quiz",
+        "condition": [{
+            "type": "quest",
+            "value": "704c854b-9e71-4d26-a833-f40dee15e2c8",
+            "operator": "isCompleted",
+            "state": {
+                "isOpen": false,
+                "canChange": true
+            }
+        }],
+        "validationData": {
+            "options": ["Agree", "Disagree"],
+            "question": ""
+        },
+        "autoValidate": true,
+        "id": "072129e8-bb19-4b8e-a0f3-611654ba8688",
+        "categoryId": "3f7c1e90-a846-4e31-8ad3-d9cef3d70b3c",
+        "conditionOperator": "AND",
+        "claimCounter": 325389,
+        "retryAfter": 3600,
+        "description": {
+            "type": "doc",
+            "content": [{
+                "type": "heading",
+                "attrs": {
+                    "level": 2,
+                    "indent": 0
+                },
+                "content": [{
+                    "text": "I will use what I’ve learned about scams to watch out for scams and teach others how they can avoid scams. I also understand that all official announcements will come from our official Twitter and Discord.",
+                    "type": "text"
+                }]
+            }, {
+                "type": "paragraph",
+                "content": [{
+                    "text": "Twitter: ",
+                    "type": "text"
+                }, {
+                    "text": "https://twitter.com/zksync",
+                    "type": "text",
+                    "marks": [{
+                        "type": "link",
+                        "attrs": {
+                            "href": "https://twitter.com/zksync",
+                            "class": null,
+                            "target": "_blank"
+                        }
+                    }]
+                }]
+            }, {
+                "type": "paragraph",
+                "content": [{
+                    "text": "Discord: ",
+                    "type": "text"
+                }, {
+                    "text": "https://join.zksync.dev/",
+                    "type": "text",
+                    "marks": [{
+                        "type": "link",
+                        "attrs": {
+                            "href": "https://join.zksync.dev/",
+                            "class": null,
+                            "target": "_blank"
+                        }
+                    }]
+                }]
+            }]
+        },
+        "totalClaims": 325389,
+        "lastClaimDate": null,
+        "lastTryDate": null,
+        "inReview": false,
+        "open": true,
+        "unlocked": false,
+        "canRetry": true
+    }]
+}]
